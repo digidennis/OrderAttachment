@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_sales_order_view>
+        <reference name="sales_order_tabs">
+            <action method="addTab">
+                <name>digidennis_orderattachment_order_view_tab</name>
+                <block>digidennis_orderattachment/adminhtml_order_view_tab_contents</block>
+            </action>
+        </reference>
+    </adminhtml_sales_order_view>
+</layout>

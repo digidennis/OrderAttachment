@@ -1,0 +1,6 @@
+code                                        app/code/local/Digidennis/OrderAttachment/
+Digidennis_OrderAttachment.xml              app/etc/modules/Digidennis_OrderAttachment.xml
+adminhtml/Digidennis_OrderAttachment.xml    app/design/adminhtml/default/default/layout/Digidennis_OrderAttachment.xml
+adminhtml/template/*                        app/design/adminhtml/default/default/template/digidennis/orderattachment/
+adminskin/*                                 skin/adminhtml/default/default/digidennis/orderattachment/
+js/*                                        js/digidennis/orderattachment/

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Digidennis_OrderAttachment>
+            <version>0.1.0</version>
+        </Digidennis_OrderAttachment>
+    </modules>
+
+
+    <global>
+        <resources>
+            <orderattachment_setup>
+                <setup>
+                    <module>Digidennis_OrderAttachment</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </orderattachment_setup>
+        </resources>
+        <models>
+            <digidennis_orderattachment>
+                <class>Digidennis_OrderAttachment_Model</class>
+            </digidennis_orderattachment>
+            <orderattachment_resource>
+                <class>Digidennis_OrderAttachment_Model_Resource</class>
+                <entities>
+                    <orderattachment>
+                        <table>digidennis_orderattachment_orderattachment</table>
+                    </orderattachment>
+                </entities>
+            </orderattachment_resource>
+        </models>
+        <blocks>
+            <digidennis_orderattachment>
+                <class>Digidennis_OrderAttachment_Block</class>
+            </digidennis_orderattachment>
+        </blocks>
+        <helpers>
+            <digidennis_orderattachment>
+                <class>Digidennis_OrderAttachment_Helper</class>
+            </digidennis_orderattachment>
+        </helpers>
+    </global>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <digidennis_orderattachment>
+                    <file>Digidennis_OrderAttachment.xml</file>
+                </digidennis_orderattachment>
+            </updates>
+        </layout>
+    </adminhtml>
+
+</config>
