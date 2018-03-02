@@ -45,6 +45,18 @@
         </helpers>
     </global>
 
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <digidennis_orderattachment after="Mage_Adminhtml">Digidennis_OrderAttachment_Adminhtml</digidennis_orderattachment>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
     <adminhtml>
         <layout>
             <updates>

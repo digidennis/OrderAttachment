@@ -1,6 +1,6 @@
 <?php
 
-class Digidennis_OrderAttachment_Block_Adminhtml_Order_View_Tab_Contents extends Mage_Adminhtml_Block_Template
+class Digidennis_OrderAttachment_Block_Adminhtml_Order_View_Tab_Content extends Mage_Adminhtml_Block_Template
     implements Mage_Adminhtml_Block_Widget_Tab_Interface
 {
     public function _construct()
