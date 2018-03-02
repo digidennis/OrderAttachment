@@ -22,6 +22,7 @@
         <models>
             <digidennis_orderattachment>
                 <class>Digidennis_OrderAttachment_Model</class>
+                <resourceModel>orderattachment_resource</resourceModel>
             </digidennis_orderattachment>
             <orderattachment_resource>
                 <class>Digidennis_OrderAttachment_Model_Resource</class>
